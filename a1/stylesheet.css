@@ -5,24 +5,38 @@ body {
 	background-image: -o-linear-gradient(180deg,rgba(255,255,255,1.00) 40.41%,rgba(255,255,255,1.00) 40.41%,rgba(0,68,255,1.00) 100%);
 	background-image: linear-gradient(270deg,rgba(255,255,255,1.00) 40.41%,rgba(255,255,255,1.00) 40.41%,rgba(0,68,255,1.00) 100%);
 	text-align: center;
-	margin-right: 267px;
-	margin-bottom: 267px;
+	margin-right: 263px;
 	margin-left: 267px;
+	overflow-x: visible;
+	overflow-y: visible;
+	left: 0px;
 
 }
-img {
-	left: 1100px;
+.homeimg {
 	padding-right: 0px;
-	overflow-x: visible;
-	padding-left: 0px;
+	overflow-x: hidden;
 	opacity: 1;
-	overflow-y: visible;
+	overflow-y: hidden;
 	position: fixed;
 	padding-top: 0px;
-	top: -72px;
-	right: 0px;
 	padding-bottom: 0px;
 	background-attachment: fixed;
+	top: 95px;
+	left: 1288px;
+}
+.contactimg {
+	padding-right: 0px;
+	overflow-x: hidden;
+	opacity: 1;
+	overflow-y: hidden;
+	position: fixed;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-attachment: scroll;
+	top: 254px;
+	left: 1125px;
+
+
 }
 body h1 {
 	text-transform: capitalize;
@@ -39,8 +53,8 @@ body h1 {
 }
 body h2 {
 	text-align: center;
-	-webkit-box-shadow: 10px 0px;
-	box-shadow: 10px 0px;
+	-webkit-box-shadow: 0 0px;
+	box-shadow: 0 0px;
 }
 .joinus {
 	color: #1A00FF;
@@ -119,3 +133,19 @@ body h2 {
 	padding-left: 10px;
 	padding-top: 3px;
 	padding-bottom: 3px;
+	
+}
+.links a:hover {
+	color: #A9EF40
+	
+}
+.guidelineimg{
+	left: -1px;
+	top: 177px;
+	position: static;
+
+}
+.whatiscosimg {
+	position: fixed;
+	margin-left: -635px;
+}
